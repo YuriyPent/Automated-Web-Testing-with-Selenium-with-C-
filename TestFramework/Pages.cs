@@ -10,7 +10,7 @@ namespace TestFramework
         {
             public static void Goto()
             {
-                throw new NotImplementedException();
+                Browser.Goto(Url);
             }
 
             public static bool isAt()
